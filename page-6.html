@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Reservation System</title>
+    <link rel="stylesheet" href="stylesa.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Railway Reservation System</h1>
+        <form id="reservation-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="train">Select Train:</label>
+            <select id="train" name="train" required>
+                <option value="express">Express Train</option>
+                <option value="superfast">Superfast Train</option>
+                <option value="local">Local Train</option>
+            </select>
+
+            <label for="date">Journey Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment" required>
+                <option value="credit-card">Credit Card</option>
+                <option value="debit-card">Debit Card</option>
+                <option value="net-banking">Net Banking</option>
+                <option value="upi">UPI</option>
+            </select>
+            <a href="file:///C:/Users/nadid/html_practice/indexc.html">
+
+            <button type="button" Onclick="submitpayment()">SubmitPayment</button>
+            </a>
+        </form>
+    </div>
+    <script src="scripta.js"></script>
+</body>
+</html>
